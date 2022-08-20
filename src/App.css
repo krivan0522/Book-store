@@ -1,38 +1,194 @@
 .App {
+  height: 100%;
+  overflow:scroll visible;
+  background: black;
+}
+.card{
+  width: 18rem;
+  display: inline-flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.card_image{
+  height:200px;
+  margin:10px 15px;
+  text-align: center;
+  width: 200px;
+}
+.size{
+  width:100vw;
+  height: 380px;
+}
+.books{
+  position:relative;
+  top:90px;
+  /* background-color: whitesmoke; */
+}
+.books h2{
+  padding:10px;
+  font-weight: bold;
+  font-size: 30px;
+  color:rgb(222, 47, 82);
+}
+.bookcat{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.books h2 span{
+  font-size: 28px;
+  text-decoration: underline;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.DisplayBooks{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  gap:5px;
+}
+@media (max-width:991px) {
+  .DisplayBooks{
+  grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width:798px) {
+  .DisplayBooks{
+  grid-template-columns: 1fr;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.individualBooks{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:10px 0;
+  font-weight: bold;
+}
+.individualBooks:hover{
+  background-color: rgb(29 28 28);
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.individualBooks img{
+  margin-top: 5px;
+  height:400px;
+}
+.individualBooks h2{
+  color:#0dcaf0;
+  font-size: 23px;
+}
+.individualBooks div{
+  font-size: 20px;
+  color:#0dcaf0;
+  margin: 10px 0;
+}
+.individualBooks .authorname{
+  font-size: 23px;
+}
+.individualBooks div span{
+  color:rgb(211, 71, 99);
+}
+button{
+  border:none;
+  background-color: rgb(4, 44, 76);
+  padding:8px;
+  border-radius:10px;
+  margin: 0;
+  margin-bottom: 5px;
+}
+button:hover{
+  background: #0dcaf0;
+  box-shadow: rgb(53, 51, 51);
+}
+.individualBooks .Button{
+  margin: 0;
+  color:white;
+}
+.bookcart{
+  position:relative;
+  
+}
+.headingcart{
+  display:flex;
+  padding:10px;
+  color: steelblue;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30px;
+  font-weight:bold;
+  text-decoration: underline;
+  margin:10px;
+}
+.itemcart img{
+  margin-top: 5px;
+  height:150px;
+}
+.bookcat{
+  text-align: center;
+  padding:10px;
+  font-weight: bold;
+  font-size: 30px;
+  color:rgb(222, 47, 82);
+  text-decoration: underline;
+}
+.bookcart span{
+  color:rgb(4, 44, 76);
+  font-weight: bold;
+} 
+.bookscart{
   display: flex;
   flex-direction: column;
+  margin: 10px;
+}
+.bookcart .itemcart{
+  display:flex;
+  padding:10px;
+  color: steelblue;
+  justify-content: space-between;
   align-items: center;
+  box-shadow: 2px 3px 5px rgba(0,0,0,0.1);
+  border:1px solid whitesmoke;
+  /* font-size: 18px; */
+  font-weight: bold;
+}
+.itemcart .pricecart{
+  font-size: 20px;
+}
+.itemcart .iprice{
+  font-size: 20px;
+}
+.itemcart button{
+  padding:2px 20px;
+  margin:0 5px;
+  background-color: rgb(223, 238, 251);
+  font-size: 25px;
+}
+.gen{
+ 
+  margin:4px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 250px;
+  background-size:cover;
+  background-repeat: no-repeat;
 }
-
-.App-link {
-  color: #61dafb;
+#genre1{
+  
+  background-image: url(https://images.hindustantimes.com/rf/image_size_640x362/HT/p2/2015/12/01/Pictures/_c34102da-9849-11e5-b4f4-1b7a09ed2cea.jpg);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#genre2{
+  background-image: url(https://warnercnr.colostate.edu/wp-content/uploads/sites/2/2017/04/shutterstock_428626417.jpg);
+}
+#genre3{
+  background-image: url(https://newint.org/sites/default/files/features/2016/09/20/01.10.2016-world-fiction-special-590.jpg);
+}
+#genre4{
+  background-image: url(https://static.toiimg.com/photo/89478572/89478572.jpg?v=3);
+}
+#genre5{
+  background-image: url(https://media.istockphoto.com/photos/futuristic-scifi-battle-ships-hover-over-an-alien-planet-picture-id1277822133?k=20&m=1277822133&s=612x612&w=0&h=39Gi-s4f2TBeUPnukbSiLG0gabkon7UyhP4gd3eufdE=);
+}
+#genre6{
+  background-image: url(https://images.unsplash.com/photo-1610116306796-6fea9f4fae38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bm92ZWx8ZW58MHx8MHx8&w=1000&q=80);
+}
+.marg{
+  margin-top:10px;
 }
