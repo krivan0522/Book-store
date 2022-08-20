@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Book-store/static/css/main.665058d3.css",
-    "main.js": "/Book-store/static/js/main.3b011051.js",
-    "index.html": "/Book-store/index.html",
-    "main.665058d3.css.map": "/Book-store/static/css/main.665058d3.css.map",
-    "main.3b011051.js.map": "/Book-store/static/js/main.3b011051.js.map"
+    "main.css": "/Krivan-Book-Store/static/css/main.665058d3.css",
+    "main.js": "/Krivan-Book-Store/static/js/main.3b011051.js",
+    "index.html": "/Krivan-Book-Store/index.html",
+    "main.665058d3.css.map": "/Krivan-Book-Store/static/css/main.665058d3.css.map",
+    "main.3b011051.js.map": "/Krivan-Book-Store/static/js/main.3b011051.js.map"
   },
   "entrypoints": [
     "static/css/main.665058d3.css",
