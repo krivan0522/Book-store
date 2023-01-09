@@ -1,6 +1,6 @@
 {
   "name": "krish",
-  "homepage": "http://krivan0522.github.io/Krivan-Book-Store", 
+  "homepage": "http://krivan0522.github.io/Krivan-Book-Store",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,6 +11,8 @@
     "react": "^18.2.0",
     "react-axios": "^2.0.6",
     "react-dom": "^18.2.0",
+    "react-qr-reader": "^3.0.0-beta-1",
+    "react-qr-scanner": "^1.0.0-alpha.11",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "react-scrollbars-custom": "^4.1.1",
@@ -19,7 +21,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
