@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Krivan-Book-Store/static/css/main.665058d3.css",
+    "main.js": "/Krivan-Book-Store/static/js/main.0e9986bb.js",
+    "index.html": "/Krivan-Book-Store/index.html",
+    "main.665058d3.css.map": "/Krivan-Book-Store/static/css/main.665058d3.css.map",
+    "main.0e9986bb.js.map": "/Krivan-Book-Store/static/js/main.0e9986bb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.665058d3.css",
+    "static/js/main.0e9986bb.js"
+  ]
+}
